@@ -1,0 +1,17 @@
+#ifndef MYSEVER_H
+#define MYSEVER_H
+
+#include <QObject>
+
+class MySever : public QObject
+{
+    Q_OBJECT
+public:
+    explicit MySever(QObject *parent = 0);
+
+signals:
+
+public slots:
+};
+
+#endif // MYSEVER_H
